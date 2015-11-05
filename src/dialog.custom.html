@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Alt Immobile Dialog</title>
+    <link rel="stylesheet" href="dialog.custom.min.css">
+    <style media="screen">
+      html,
+      body {
+        font-family: sans-serif;
+      }
+      h2 {
+        font-size: 50px;
+        margin-bottom: 0;
+      }
+      .exemplo {
+        margin: 60px 0 30px 0;
+      }
+      .legenda {
+        font-size: 14px;
+      }
+      .main-container {
+        width: 80%;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Início -->
+    <div class="dialog-custom-fade dialog-custom-transition"></div>
+    <div class="dialog-custom-alertinha dialog-custom-transition">
+      <div class="dialog-custom-alertinha-titulo">
+        <h4>Título janelinha</h4>
+      </div>
+      <div class="dialog-custom-alertinha-corpo">
+        <p>
+          Mensagen janelinha
+        </p>
+      </div>
+      <div class="dialog-custom-alertinha-btn">
+        <button type="button" name="button" class="dialog-custom-btn dialog-custom-btn-confirm">Confirmar</button>
+        <button type="button" name="button" class="dialog-custom-btn dialog-custom-btn-cancel">Cancelar</button>
+      </div>
+    </div>
+    <!-- Fim -->
+    <div class="main-container">
+      <h2>Dialog Custom</h2>
+      <span class="legenda">Uma caixa de diálogo simples implementada apenas com javascript.</span>
+      <p class="exemplo">Clique <a href="#" id="dialog-custom-modal">aqui</a> para ver um exemplo</p>
+    </div>
+  </body>
+  <script src="dialog.custom.min.js"></script>
+</html>
